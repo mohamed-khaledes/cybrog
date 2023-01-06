@@ -1,0 +1,16 @@
+.section-header h4{
+    font-size: 35px;
+    font-weight: var(--font-weight-bold);
+    text-decoration: underline;
+}
+@media (max-width:480px) {
+    .section-header h4{
+        font-size: 28px;
+        text-align: center;
+        margin: 20px 0;
+    }
+}
+.section-header h4 span{
+    text-decoration: none;
+    color: var(--color-primary);
+}

@@ -1,0 +1,9 @@
+form .form-control{
+    border-radius: var(--border-radius-primary);
+    padding: calc(var(--padding-primary) / 4);
+    font-weight: var(--font-weight-normal);
+    font-size: 16px;
+    background-color: var(--color-dark);
+    /* background-color: rgba(var(--color-dark),var(--bs-bg-opacity))!important; */
+    border: none;
+}

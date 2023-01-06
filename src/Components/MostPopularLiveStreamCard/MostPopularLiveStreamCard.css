@@ -1,0 +1,52 @@
+.most-popular-live-stream-items{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.most-popular-live-stream-item{
+    flex: 1;
+    flex-basis: 25%;
+}
+.card-wrapper{
+    background-color: var(--color-dark);
+    padding:calc(var(--border-radius-primary) / 2);
+    border-radius: calc(var(--border-radius-primary) / 2);
+    margin: calc(var(--margin-primary) / 5);
+}
+.most-popular-live-stream-item {
+    display: inline-block;
+    vertical-align: middle;
+    transform: translateZ(0);
+    box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+    backface-visibility: hidden;
+    -moz-osx-font-smoothing: grayscale;
+    transition-duration: 0.3s;
+    transition-property: transform;
+}
+.most-popular-live-stream-item:hover,
+.most-popular-live-stream-item:focus,
+.most-popular-live-stream-item:active {
+    transform: scale(1.1);
+}
+.most-popular-live-stream-item-image{
+    width: 100%;
+    border-radius: calc(var(--border-radius-primary) / 2);
+    margin-bottom: calc(var(--margin-primary) / 2);
+}
+.most-popular-live-stream-item-content{
+    display: flex;
+    justify-content: space-between;
+    align-items: centers;
+    gap: 10px;
+}
+.most-popular-live-stream-item-content .avatar img{
+    border-radius: 50%;
+}
+.most-popular-live-stream-item-subtitle{
+    color: var(--color-primary);
+}
+.most-popular-live-stream-item-title{
+    font-size:20px;
+    line-height: 1.6rem;
+    font-weight: var(--font-weight-bold);
+}

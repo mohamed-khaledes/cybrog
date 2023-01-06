@@ -1,0 +1,14 @@
+.most-popular-live-stream-items{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.section-wrapper{
+    position: relative;
+}
+.most-popular-live-stream-btn{
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translate(-50%,50%);
+}

@@ -1,0 +1,20 @@
+.live-streams{
+    flex-basis:65%;
+}
+.live-streams .section-wrapper{
+    margin: 0;
+}
+.featured-games-items{
+    display: flex;
+    flex-wrap: nowrap;
+}
+@media (max-width:767px) {
+    .featured-games-items{
+        flex-direction: column;
+    }
+}
+@media (max-width:991px) {
+    .live-streams{
+        flex-basis: 100%;
+    }
+}

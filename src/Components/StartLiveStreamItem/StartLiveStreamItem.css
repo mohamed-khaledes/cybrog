@@ -1,0 +1,29 @@
+.start-live-stream-item{
+    border: 1px solid var(--color-span);
+    flex-basis: 33%;
+    padding: 30px;
+    border-radius: 20px;
+    text-align: left;
+    display: inline-block;
+    vertical-align: middle;
+    transform: translateZ(0);
+    box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+    backface-visibility: hidden;
+    -moz-osx-font-smoothing: grayscale;
+    transition-duration: 0.3s;
+    transition-property: transform;
+}
+.start-live-stream-item:hover,
+.start-live-stream-item:focus,
+.start-live-stream-item:active {
+    transform: scale(1.07);
+}
+.start-live-stream-item img{
+    border-radius: 50%;
+}
+.start-live-stream-item-title{
+    margin: 15px 0px;
+}
+.start-live-stream-item-description{
+    color: var(--color-span);
+}

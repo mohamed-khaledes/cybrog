@@ -1,0 +1,14 @@
+.streams-header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.streams-header .section-wrapper{
+    margin: 0;
+}
+@media (max-width:1199px) {
+    .streams-header{
+        flex-direction: column;
+        gap: 20px;
+    }
+}

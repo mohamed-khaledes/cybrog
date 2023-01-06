@@ -1,0 +1,33 @@
+.top-downloaded{
+    flex-basis: 33%;
+    max-height: 600px;
+    min-height: 600px;
+}
+.top-downloaded .section-wrapper{
+    min-height: 600px;
+    max-height: 600px;
+    margin: 0;
+}
+.top-downloaded-list{
+    padding: 0;
+    margin-top: calc(var(--margin-primary) / 2);
+}
+.view-all-games{
+    font-weight: var(--font-weight-bold);
+    font-size: 20px;
+    padding: 10px;
+    text-align: center;
+}
+.view-all-games a{
+    color: var(--color-primary);
+    transition: all 0.3s;
+}
+.view-all-games a:hover{
+    color: var(--color-light);
+    
+}
+@media (max-width:991px) {
+    .top-downloaded{
+        flex-basis:100%;
+    }
+}

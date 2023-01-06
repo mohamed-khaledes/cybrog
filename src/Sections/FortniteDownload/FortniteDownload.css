@@ -1,0 +1,81 @@
+.fortnite-download .secondary{
+    text-align: center;
+}
+.fortnite-download .secondary a{
+    width: 100%;
+}
+.fortnite-download-head{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 20px;
+}
+.head-left{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: var(--color-dark);
+    padding: 15px;
+    border-radius: 20px;
+    flex-basis: 50%;
+    min-height: 100px;
+}
+.head-left h5 span{
+    color: var(--color-span);
+}
+.head-right{
+    background: var(--color-dark);
+    padding: 15px;
+    border-radius: 20px;
+    min-height: 100px;
+    flex-basis: 50%;
+
+}
+.head-right ul{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
+.head-right ul li{
+    text-align: center;
+}
+.fontnite-download-images{
+    margin-top:40px;
+    display: flex;
+    gap:20px;
+}
+.fontnite-download-images img{
+    border-radius: 20px;
+    width: calc(95% / 3);
+}
+.fortnite-download-p{
+    color: var(--color-span);
+    margin: 30px 0;
+    line-height: 2;
+}
+.fortnite-download-p span{
+    color: var(--color-light);
+    transition: all 0.3s;
+    cursor: pointer;
+}
+.fortnite-download-p span:hover{
+    color: var(--color-primary);
+}
+@media (max-width:767px) {
+    .fontnite-download-images{
+        flex-direction: column;
+    }
+    .fontnite-download-images img{
+        width: 100%;
+    }
+    .fortnite-download-head{
+        flex-direction: column;
+    }
+    .fortnite-download-head .head-left,
+    .fortnite-download-head .head-right{
+        width: 100%;
+    }
+}

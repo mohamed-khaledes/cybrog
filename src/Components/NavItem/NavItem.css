@@ -1,0 +1,30 @@
+.nav-item{
+    font-size: 16px;
+}
+.nav-link{
+    letter-spacing: 1.5px;
+}
+.nav-item:hover .nav-link{
+    color: var(--color-primary);
+}
+.profile{
+    display: flex;
+    background-color: var(--color-dark);
+    padding: 3px 10px;
+    border-radius:calc( var(--border-radius-primary));
+    transition: all 0.3s;
+}
+.profile img{
+    border-radius: var(--border-radius-primary);
+}
+.profile:hover {
+    background-color: var(--color-primary);
+}
+.profile:hover .nav-link{
+    color: var(--color-light) !important;
+}
+.navbar-nav .nav-link.active{
+    background: var(--color-primary);
+    color: white;
+    border-radius: 20px;
+}

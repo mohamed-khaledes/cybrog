@@ -1,0 +1,13 @@
+footer{
+    color: var(--color-light);
+    padding: var(--padding-primary);
+    text-align: center;
+    font-size: 16px;
+}
+footer a{
+    color: var(--color-ligth);
+    transition: all 0.3s;
+}
+footer a:hover{
+    color: var(--color-primary);
+}

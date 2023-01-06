@@ -1,0 +1,14 @@
+.most-popular-clips-items{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.section-wrapper{
+    position: relative;
+}
+.most-popular-clips-btn{
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translate(-50%,50%);
+}

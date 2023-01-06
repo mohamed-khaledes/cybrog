@@ -1,0 +1,48 @@
+
+.card-wrapper{
+    background-color: var(--color-dark);
+    padding:calc(var(--border-radius-primary) / 2);
+    border-radius: calc(var(--border-radius-primary) / 2);
+    margin: calc(var(--margin-primary) / 5);
+}
+.most-popular-clips-item {
+    flex: 1;
+    flex-basis: 25%;
+    display: inline-block;
+    vertical-align: middle;
+    transform: translateZ(0);
+    box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+    backface-visibility: hidden;
+    -moz-osx-font-smoothing: grayscale;
+    transition-duration: 0.3s;
+    transition-property: transform;
+}
+.most-popular-clips-item:hover,
+.most-popular-clips-item:focus,
+.most-popular-clips-item:active {
+    transform: scale(1.1);
+}
+.most-popular-clips-item-image{
+    width: 100%;
+    border-radius: calc(var(--border-radius-primary) / 2);
+    margin-bottom: calc(var(--margin-primary) / 2);
+}
+.most-popular-clips-item-content{
+    display: flex;
+    justify-content: space-between;
+    align-items: centers;
+}
+.most-popular-clips-item-title{
+    font-size:20px;
+    line-height: 1.6rem;
+}
+.most-popular-clips-item-title span{
+    font-size: 15px;
+    color: var(--color-span);
+    font-weight: var(--font-weight-bold);
+}
+.most-popular-clips-item-content ul li {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}

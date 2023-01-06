@@ -1,0 +1,18 @@
+.top-streamers{
+    flex-basis: 33%;
+}
+.top-streamers-list{
+    padding: 0;
+    margin-top: calc(var(--margin-primary) / 2);
+}
+.top-streamers .section-wrapper{
+    min-height: 600px;
+    max-height: 600px;
+}
+@media (max-width:1200px) {
+    .top-streamers{
+     max-width: 100%;
+     width: 100%;
+    }
+     
+ }

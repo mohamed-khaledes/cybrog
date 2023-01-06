@@ -1,0 +1,24 @@
+.live-streams{
+    flex-basis:65%;
+    max-width: 65%;
+}
+@media (max-width:767px) {
+    .live-streams-items{
+        flex-direction: column;
+    }
+    .live-streams{
+        width: 100%;
+        max-width: 100%;
+    }
+    .live-streams-item .card-wrapper{
+        width: auto;
+    }
+    
+}
+@media (max-width:1200px) {
+   .live-streams{
+    max-width: 100%;
+    width: 100%;
+   }
+    
+}
