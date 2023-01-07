@@ -5,17 +5,17 @@ import NavItem, {NavItemProfile} from "../../Components/NavItem/NavItem";
 import { Link } from "react-router-dom";
 const Header = (props) => {
   let links = document.querySelectorAll('.nav-link');
-  function switch_active(){
-    links.forEach((link) =>{
-      link.addEventListener("click",(e) =>{
-        links.forEach((link) =>{
-          link.classList.remove("active")
-        })
-        e.target.classList.add("active")
+function switch_active(){
+  links.forEach((link) =>{
+    link.addEventListener("click",(e) =>{
+      links.forEach((link) =>{
+        link.classList.remove("active")
       })
+      e.target.classList.add("active")
     })
-  }
-  switch_active();
+  })
+}
+  <switch_active></switch_active>
   return (
     <nav className="navbar navbar-expand-lg navbar-dark nav ">
       <div className="container">
