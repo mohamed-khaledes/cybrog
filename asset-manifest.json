@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/mohamed-khaled11/cybrog/static/css/main.529a51b1.css",
-    "main.js": "/mohamed-khaled11/cybrog/static/js/main.907bf36c.js",
+    "main.js": "/mohamed-khaled11/cybrog/static/js/main.0e4242c6.js",
     "static/media/feature-right.jpg": "/mohamed-khaled11/cybrog/static/media/feature-right.01ad26795580300e2029.jpg",
     "static/media/feature-left.jpg": "/mohamed-khaled11/cybrog/static/media/feature-left.2e7e18e857172344a46d.jpg",
     "static/media/details-02.jpg": "/mohamed-khaled11/cybrog/static/media/details-02.4c3a5cf3e64cb6cc18f5.jpg",
@@ -30,10 +30,10 @@
     "static/media/popular-03.jpg": "/mohamed-khaled11/cybrog/static/media/popular-03.1c8955f99df2b3b94391.jpg",
     "index.html": "/mohamed-khaled11/cybrog/index.html",
     "main.529a51b1.css.map": "/mohamed-khaled11/cybrog/static/css/main.529a51b1.css.map",
-    "main.907bf36c.js.map": "/mohamed-khaled11/cybrog/static/js/main.907bf36c.js.map"
+    "main.0e4242c6.js.map": "/mohamed-khaled11/cybrog/static/js/main.0e4242c6.js.map"
   },
   "entrypoints": [
     "static/css/main.529a51b1.css",
-    "static/js/main.907bf36c.js"
+    "static/js/main.0e4242c6.js"
   ]
 }
