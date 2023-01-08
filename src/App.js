@@ -2,7 +2,8 @@ import React from "react";
 import "./App.css";
 import { Container } from "./Components/index";
 import { Header, Footer } from "./Sections/index";
-import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
+// import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
+import { HashRouter as Router, Route, Routes } from "react-router-dom";
 import { Home,Browse,Details, Profile,Streams } from "./Pages/index";
 function App() {
   return (
