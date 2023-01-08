@@ -3,9 +3,10 @@ import "./Header.css";
 import logo from "../../assets/images/logo.png";
 import NavItem, {NavItemProfile} from "../../Components/NavItem/NavItem";
 import { Link } from "react-router-dom";
+
 const Header = (props) => {
+  function switch_active(){
   let links = document.querySelectorAll('.nav-link');
-function switch_active(){
   links.forEach((link) =>{
     link.addEventListener("click",(e) =>{
       links.forEach((link) =>{
@@ -15,7 +16,6 @@ function switch_active(){
     })
   })
 }
-  <switch_active></switch_active>
   return (
     <nav className="navbar navbar-expand-lg navbar-dark nav ">
       <div className="container">

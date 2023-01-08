@@ -2,7 +2,6 @@ import stream_01 from "../assets/images/featured-01.jpg";
 import stream_02 from "../assets/images/featured-02.jpg";
 import stream_03 from "../assets/images/featured-03.jpg";
 
-
 const LiveStreamsData = [
   {
     id: "live-stream-item-0",
