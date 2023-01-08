@@ -6,7 +6,7 @@ const LiveStreamsCard = (props) => {
   return (
     <div className="live-streams-item">
       <div className="card-wrapper">
-        <img className="live-streams-item-image" src={props.image} />
+        <img className="live-streams-item-image" src={props.image} alt="live-streams-item-image" />
         <div className="live-streams-item-content">
           <h4 className="live-streams-item-title">
             {props.title} <br />

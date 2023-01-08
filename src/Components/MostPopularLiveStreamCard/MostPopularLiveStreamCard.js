@@ -5,11 +5,11 @@ const MostPopularLiveStreamCard = (props) => {
   return (
     <div className="most-popular-live-stream-item">
       <div className="card-wrapper">
-        <img className="most-popular-live-stream-item-image" src={props.image} />
+        <img className="most-popular-live-stream-item-image" src={props.image} alt="most-popular-live-stream-item-image" />
         
         <div className="most-popular-live-stream-item-content">
           <div className="avatar">
-            <img src={props.avatar}/>
+            <img src={props.avatar} alt="avatar"/>
           </div>
           <div className="text">
             <p className="most-popular-live-stream-item-subtitle"> <FaThumbsUp /> {props.subtitle}</p>

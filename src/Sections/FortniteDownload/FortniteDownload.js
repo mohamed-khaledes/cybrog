@@ -48,9 +48,9 @@ const FortniteDownload = () => {
           </div>
         </div>
         <div className="fontnite-download-images">
-          <img src={details_01} />
-          <img src={details_02} />
-          <img src={details_03} />
+          <img src={details_01} alt="details_01" />
+          <img src={details_02} alt="details_02"/>
+          <img src={details_03} alt="details_03"/>
         </div>
         <p className="fortnite-download-p">
           Cyborg Gaming is free HTML CSS website template provided by
