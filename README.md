@@ -99,4 +99,5 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/t
   * git commit -m "setup gh-pages"
   * git push
   
+### 7- npm run deploy
 ### live Demo : https://mohamed-khaled11.github.io/cybrog/
