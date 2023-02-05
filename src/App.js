@@ -9,7 +9,7 @@ function App() {
   return (
     // React Frugments shortcut
     <>
-      <Router basename="/cybrog/">
+      <Router>
         <Header />
         <Container>
           <Routes>

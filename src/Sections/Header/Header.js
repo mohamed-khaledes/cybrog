@@ -1,21 +1,16 @@
-import React from "react";
+import React,{useState} from "react";
 import "./Header.css";
 import logo from "../../assets/images/logo.png";
 import NavItem, {NavItemProfile} from "../../Components/NavItem/NavItem";
 import { Link } from "react-router-dom";
 
+// switch active 
+
 const Header = (props) => {
-  function switch_active(){
-  let links = document.querySelectorAll('.nav-link');
-  links.forEach((link) =>{
-    link.addEventListener("click",(e) =>{
-      links.forEach((link) =>{
-        link.classList.remove("active")
-      })
-      e.target.classList.add("active")
-    })
-  })
-}
+  const [active,setActive] = useState(1)
+  function toggleActive(index){
+    setActive(index)
+  }
   return (
     <nav className="navbar navbar-expand-lg navbar-dark nav ">
       <div className="container">
@@ -44,24 +39,22 @@ const Header = (props) => {
         <div className="collapse navbar-collapse" id="navbarSupportedContent">
           <ul className="navbar-nav ms-auto mb-2 mb-lg-0">
             <NavItem>
-              <Link onClick={switch_active()} className="nav-link active" aria-current="page" to="/home">
+              <Link onClick={() =>toggleActive(1)} className={active ===1?"nav-link active":"nav-link"} aria-current="page" to="/home">
                 Home
               </Link>
               {/* <a className="nav-link active" aria-current="page" href="/home">Home</a> */}
             </NavItem>
             <NavItem>
-              <Link onClick={switch_active()} className="nav-link" to="/browse">
+              <Link onClick={() =>toggleActive(2)} className={active ===2?"nav-link active":"nav-link"} to="/browse">
                 Browse
               </Link>
               {/* <a className="nav-link" href="/browse">Browse</a> */}
             </NavItem>
             <NavItem>
-              <Link onClick={switch_active()}
-                className="nav-link " to="/details">Details</Link>
+              <Link onClick={() =>toggleActive(3)} className={active ===3?"nav-link active":"nav-link"} to="/details">Details</Link>
             </NavItem>
             <NavItem>
-              <Link onClick={switch_active()}
-                className="nav-link "
+              <Link onClick={() =>toggleActive(4)} className={active ===4?"nav-link active":"nav-link"}
                 to="/streams"
                 tabIndex="-1"
                 aria-disabled="true"
@@ -71,8 +64,7 @@ const Header = (props) => {
               {/* <a className="nav-link " href="/streams" tabIndex="-1" aria-disabled="true">Streams</a> */}
             </NavItem>
             <NavItemProfile>
-              <Link onClick={switch_active()}
-                className="nav-link profile-link"
+              <Link onClick={() =>toggleActive(5)} className={active ===5?"nav-link profile-link active":"nav-link profile-link"}
                 to="/profile"
                 tabIndex="-1"
                 aria-disabled="true"
