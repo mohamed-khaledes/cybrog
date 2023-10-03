@@ -100,4 +100,4 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/t
   * git push
   
 ### 7- npm run deploy
-### live Demo : https://mohamed-khaled11.github.io/cybrog/
+### Live : https://mohamed-khaledes.github.io/cybrog/
